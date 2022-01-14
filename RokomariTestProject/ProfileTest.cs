@@ -9,7 +9,7 @@ namespace RokomariTestProject
 {
     public class ProfileTests : SignInTest
     {
-       
+       //4.1 my account
         [Test]
         public void Test1()
         {
@@ -29,6 +29,7 @@ namespace RokomariTestProject
 
         }
 
+        ////4.2 My Order
         [Test]
         public void Test2()
         {
@@ -45,7 +46,8 @@ namespace RokomariTestProject
             Thread.Sleep(waitingTime);
           
         }
-
+        
+        ////4.3 My List
         [Test]
         public void Test3()
         {
@@ -63,6 +65,7 @@ namespace RokomariTestProject
 
         }
 
+        ////4.4 My Wishlist
         [Test]
         public void Test4()
         {
@@ -80,6 +83,7 @@ namespace RokomariTestProject
 
         }
 
+        ////4.5 My Rating Reviews
         [Test]
         public void Test5()
         {
@@ -97,6 +101,7 @@ namespace RokomariTestProject
 
         }
 
+        ////4.6 My Points
         [Test]
         public void Test6()
         {
@@ -113,7 +118,8 @@ namespace RokomariTestProject
             Thread.Sleep(waitingTime);
 
         }
-
+        
+        ////4.7 Sign Out
         [Test]
         public void Test7()
         {
