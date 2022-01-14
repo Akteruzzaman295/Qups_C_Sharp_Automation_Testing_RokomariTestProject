@@ -9,7 +9,7 @@ namespace RokomariTestProject
 {
     public class TopBarTests : SignInTest
     {
-       
+       //8.1 Electronics
         [Test]
         public void Test1()
         {
@@ -25,7 +25,8 @@ namespace RokomariTestProject
 
 
         }
-
+        
+        ////8.2 Stationary & Others
         [Test]
         public void Test2()
         {
@@ -41,6 +42,7 @@ namespace RokomariTestProject
           
         }
 
+        //8.3 Giftfinder
         [Test]
         public void Test3()
         {
@@ -57,6 +59,7 @@ namespace RokomariTestProject
 
         }
 
+        //8.4 Corporate
         [Test]
         public void Test4()
         {
@@ -72,7 +75,8 @@ namespace RokomariTestProject
 
 
         }
-
+        
+        //8.5 Offer
         [Test]
         public void Test5()
         {
@@ -88,13 +92,15 @@ namespace RokomariTestProject
 
 
         }
-
+        
+        
+        //8.6 Blog
         [Test]
         public void Test6()
         {
             int waitingTime = 200;
 
-            //8.1 Blog
+            //8.6 Blog
             var Blog = webDriver.FindElement(By.XPath("./html/body/header/div/nav/div/div/ul/li[7]/a"));
 
             //operation
